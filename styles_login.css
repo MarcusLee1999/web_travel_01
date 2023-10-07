@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.setflex{
+    display: flex;
+}
+
+.becenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setcolumn{
+    flex-direction: column;
+}
+
+.blue_back{
+    width:1920px ; 
+    height: 640px;
+    background: url(img_login/blue_back.png) no-repeat center;
+}
+
+.white_square{
+    width: 400px;
+    height: 400px;
+    background: url(img_login/white_square.png) no-repeat center;
+    align-items: center;
+
+}
+
+.middle_back{
+    width: 400px;
+    height: 640px;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    background: url(img_login/logo.png) no-repeat center;
+}
+
+.input_field {
+    width: 288px;
+    height: 40px;
+    border: #999999 1px solid;
+    /*这是搜索框的边边*/
+    border-radius: 10px;
+    /*这是圆角*/
+    padding-left: 12px;
+    /*这是输入框的左padding，左边多了padding，文字部分就会往右跑了*/
+    outline: none;
+    text-transform:capitalize;
+}
+
+.pic_weibo{
+    width: 40px;
+    height: 40px;
+    background: url(img_login/weibo.png) center no-repeat;
+
+}
+
+.pic_wechat{
+    width: 40px;
+    height: 40px;
+    background: url(img_login/wechat.png) center no-repeat;
+    text-transform: capitalize;
+
+}
+
+.pic_qq{
+    width: 40px;
+    height: 40px;
+    background: url(img_login/qq.png) center no-repeat;
+    text-transform: capitalize;
+}
+
+.sign_field{
+    width: 288px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 12px;
+    background-color: #5696ff;
+    margin-bottom: 20px;
+
+}
+
+.sign_txt{
+    color: aliceblue;
+    text-transform: uppercase;
+
+}
+
+.forgotten_txt{
+    color: #5696ff;
+    margin-bottom: 10px;
+}
+
+.txtgrey{
+    color: #999999;
+}
+
+.whitetxt{
+    color: aliceblue;
+}
+
+.bluetxt{
+    color: #5696ff;
+}
+
+.shadow_field{
+    width:300px;
+    height: 30px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+.password_positon{
+    margin-bottom: 10px;
+}
+
+.line_grey{
+    width: 95%;
+    height: 1px;
+    background-color: #cecece;
+    margin-bottom: 14px;
+}
+
+.username_positon{
+    margin-top: 43px;
+    margin-bottom: 20px;
+}
+
+.direct_position{
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.icon_positon{
+    margin-right: 50px;
+}

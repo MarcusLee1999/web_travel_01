@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.grey_bar_top {
+    height: 60px;
+    background-color: #666666;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.special_blue {
+    background-color: rgb(86, 150, 255);
+    color: white;
+}
+
+.whitefull {
+    background-color: white;
+}
+
+.white1200px {
+    width: 1200px;
+    background-color: white;
+    margin: auto;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+.nav>li {
+    /*这是nav导航板块里的li，也就是具体的小格子的大小和里面的字体样式*/
+    list-style: none;
+    float: left;
+    width: 100px;
+    height: 72px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 72px;
+    margin-right: 24px;
+}
+
+.nav>li:hover {
+    /*这是nav导航板块里的li，也就是具体的小格子，鼠标悬停变色*/
+    background-color: rgb(86, 150, 255);
+    color: white;
+}
+
+.login_register>span {
+    /*这是注册登陆板块里的span，也就是具体到登陆和注册这些字体*/
+    float: left;
+    text-align: center;
+    line-height: 72px;
+    font-size: 18px;
+}
+
+.blue_bar_bottom {
+    margin-top: 77px;
+    height: 130px;
+    background-color: #5696ff;
+}
+
+.blue_bar_text {
+    width: 910px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    top: 30px;
+    color: #f3f3f3;
+}
+
+.margin_top_100px {
+    margin-top: 100px;
+}
+
+.grey_bar_search {
+    width: 30px;
+    height: 30px;
+    background: url(img_region/grey_bar_search.png) center no-repeat;
+    margin-left: 40px;
+}
+
+.grey_bar_line1 {
+    width: 30px;
+    height: 30px;
+    background: url(img_region/grey_bar_line.png) center no-repeat;
+    margin-left: 30px;
+}
+
+.grey_bar_history {
+    width: 30px;
+    height: 30px;
+    background: url(img_region/grey_bar_history.png) center no-repeat;
+    margin-left: 800px;
+}
+
+.grey_bar_line2 {
+    width: 30px;
+    height: 30px;
+    background: url(img_region/grey_bar_line.png) center no-repeat;
+    margin-left: 24px;
+}
+
+.grey_bar_critique {
+    width: 30px;
+    height: 30px;
+    background: url(img_region/grey_bar_critique.png) center no-repeat;
+    margin-left: 36px;
+}
+
+.grey_bar_profile {
+    width: 30px;
+    height: 30px;
+    background: url(img_region/grey_bar_profile.png) center no-repeat;
+    margin-left: 84px;
+}
+
+.position_grey_bar_inside {
+    margin: auto;
+    width: 1200px;
+    position: relative;
+    top: 15px
+}
+
+.section_1{
+    width: 1200px;
+    height: 350px;
+    background-color: #5696ff;
+
+    margin: auto;
+    margin-top: 60px;
+}
+
+.section_2{
+
+    width: 1200px;
+    height: 1940px; 
+    margin: auto;
+    margin-top: 65px;
+}
+
+.guide_bottom{
+    margin-top: 130px;
+    height: 62px;
+}
+
+.guide_line{
+    margin-top: 22px;
+    height: 60px;
+    margin-left: -34px;
+}
+
+.guide_block{
+    margin-top: 0px;
+    margin-left: 45px;
+    width: 160px;
+    height: 330px;
+}
+
+.bottom_text{
+
+    font-size: 18.62px;
+    line-height: 55px; 
+    color: black;
+}
+
+.bottom_1{
+    width: 200px;
+    height: 55px;
+    border: 1px solid rgb(231, 231, 231);
+    text-align: center;
+}
+
+.bottom_2{
+    text-align: center;
+}
+
+.bottom_3{
+    width: 200px;
+    height: 55px;
+    border: 1px solid rgb(231, 230, 230);
+    text-align: center;
+}
+
+.page_block{
+    margin-left:33px ;
+}
+
+.banner_pic{
+    width: 1000px;
+    height: 350px;
+    background:aqua url(img_discount/banner.png) center  no-repeat;
+    background-size: cover; 
+    display: flex;
+
+}
+
+.ticket_details{
+    width: 200px;
+    height: 350px;
+    background-color: #0a5c9a;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sell_details1{
+    width: 860px;
+    height: 1940px;
+}
+
+.hot_sell{
+    width: 281px;
+    height: 594px;
+}
+
+.ticket_deals{
+    background-color: #5696ff ;
+    width: 272px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.txt1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #f3f3f3;
+    text-align: center;
+}
+
+.ticket_part1{
+    margin-top: 20px;
+}
+.ticket_part2{
+    width: 40px;
+    height: 36px;
+    background: url(img_discount/barcode.png) center no-repeat;
+}
+
+.ticket_container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.ticket_part3{
+    width: 140px;
+    height: 32px;
+    background-color: #f3f3f3;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 32px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+.ticket_part4{
+    width: 100px;
+    height: 30px;
+    background: url(img_discount/arrow_banner.png) center no-repeat;
+    margin-top: 20px;
+
+}
+
+.search {
+    width: 170px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.input_1 {
+    /*this is search box这是搜索框里的文字搜索内容，值得一提，不加.多意思是直接编辑标签名，一般不可以这样*/
+    width: 120px;
+    height: 40px;
+    border: #f3f3f3 1px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 12px;
+    outline: none;
+    text-transform:uppercase;
+
+}
+
+.search_icon{
+    width: 50px;
+    background: #5696ff url(img_discount/search_icon_white.png) center no-repeat;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.product_details{
+    margin-top: -49px;
+}
+
+.product_detail0{
+    width: 860px;
+    height: 207px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction:row;
+}
+
+.detail_txt{
+    width: 520px;
+    margin-left: 20px;
+}
+
+.shadow_line {
+    margin: auto;
+    width: 90%; 
+    height: 0.1px; 
+    background-color: #f3f3f3;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); 
+    margin-top: 49px;
+
+}
+
+.shadow_line2{
+    margin: auto;
+    width: 90%; 
+    height: 0.1px; 
+    background-color: #f3f3f3;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); 
+    margin-top: 20px;
+
+}
+
+.detail_pic1{
+    width: 322px;
+    height: 207px;
+    background: url(img_discount/detail_1.png);
+}
+
+.detail_pic2{
+    width: 322px;
+    height: 207px;
+    background: url(img_discount/detail_2.png);
+}
+
+.detail_pic3{
+    width: 322px;
+    height: 207px;
+    background: url(img_discount/detail_3.png);
+}
+
+.detail_pic4{
+    width: 322px;
+    height: 207px;
+    background: url(img_discount/detail_4.png);
+}
+
+.detail_pic5{
+    width: 322px;
+    height: 207px;
+    background: url(img_discount/detail_5.png);
+}
+
+.detail_pic6{
+    width: 322px;
+    height: 207px;
+    background: url(img_discount/detail_6.png);
+}
+
+.detail_part1{
+    color: #5696ff;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.detail_part2{
+    margin-top: 10px;
+    color: #333333;
+    font-size: 22px;
+}
+
+.detail_part3{
+    margin-top: 10px;
+    color:#666666;
+    font-size: 16px;
+}
+
+.detail_part4{
+    margin-top: 10px;
+    color:#eb4c4d;
+    font-size: 36px;
+}
+
+.detail_part5{
+    width: 140px;
+    height: 50px;
+    display: flex;
+    border: 1px solid #5696ff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+    margin-left: 350px;
+}
+
+.detail_text_blue{
+    font-size: 22px;
+    color: #5696ff;
+}
+
+.sell_txt{
+    width: 160px;
+    height: 68px;
+    display: flex;
+     flex-direction: column;
+     margin-left: 10px;
+}
+
+.sell_part1{
+    width: 160px;
+    font-size: 11px;
+}
+
+.sell_part2{
+    font-size: 14px;
+    color: #eb4c4d;
+    margin-top: auto;
+}
+
+.sell_title{
+    display: flex;
+    width:280px ;
+    height:50px ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #5696ff;
+    font-size: 16px;
+    color: #5696ff;
+}
+
+.sell_pic1{
+    width: 88px;
+    height: 68px;
+    background: url(img_discount/short1.png) center no-repeat;
+}
+
+.sell_pic2{
+    width: 88px;
+    height: 68px;
+    background: url(img_discount/short2.png) center no-repeat;
+}
+
+.sell_pic3{
+    width: 88px;
+    height: 68px;
+    background: url(img_discount/short3.png) center no-repeat;
+}
+
+.sell_pic4{
+    width: 88px;
+    height: 68px;
+    background: url(img_discount/short4.png) center no-repeat;
+}
+
+.sell_pic5{
+    width: 88px;
+    height: 68px;
+    background: url(img_discount/short5.png) center no-repeat;
+}
+
+.sell_product1{
+    display: flex;
+    margin-top: 36px;
+}
+
+.sell_product2{
+    display: flex;
+    margin-top: 36px;
+}
+
+.sell_product3{
+    display: flex;
+    margin-top: 36px;
+}
+
+.sell_product4{
+    display: flex;
+    margin-top: 36px;
+}
+
+.sell_product5{
+    display: flex;
+    margin-top: 36px;
+}
+
+.blue_text{
+    color: #5696ff;
+}
