@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none; /* 去除下划线 */
+    color: inherit; /* 继承父元素的颜色 */
+}
+
 body{
     background-color:#f3f3f3 ;    
 }
